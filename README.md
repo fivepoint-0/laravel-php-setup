@@ -1,7 +1,17 @@
 # PHP Laravel Docker Image
 
-## Setup
+## Rebuilding the application with Docker (must be in 'down' state)
+```shell
+$ docker-compose build
+```
 
-We set up different [environments](#environments) in the `docker-compose.yml` file located in the root directory of the project. 
+## Running the application with Docker:
 
-### Environments
+```shell
+$ docker-compose up
+```
+
+## Shutting down the application with Docker:
+```shell
+$ docker-compose down
+```
